@@ -1,4 +1,46 @@
-img {
+.portada {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(../../../assets/img/banner.jpg);
   width: 100%;
-  height: 600px;
+  height: 700px;
+  background-size: cover;
+  background-position: center center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+.portada h1 {
+  font-size: 4em;
+  font-weight: bold;
+  color: #fff;
+  padding: 20px 0;
+}
+
+.portada h1 .rojo {
+  color: #ff0076;
+}
+
+.portada p {
+  font-size: 32px;
+  color: #fff;
+}
+
+.boton {
+  display: block;
+  width: 180px;
+  margin: 0 auto;
+  background-color: transparent;
+  border: 4px solid #ff0076;
+  margin-top: 30px;
+  padding: 10px 0;
+  border-radius: 50px;
+  color: #fff;
+  font-size: 20px;
+}
+
+.boton:hover {
+  background-color: #333;
 }
