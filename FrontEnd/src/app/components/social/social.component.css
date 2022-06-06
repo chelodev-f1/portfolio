@@ -1,4 +1,9 @@
+.social {
+  float: right;
+}
+
 img {
   width: 50px;
   margin-right: 5px;
+  margin-top: 22px;
 }

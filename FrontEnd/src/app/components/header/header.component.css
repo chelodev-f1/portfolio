@@ -1,8 +1,11 @@
-div {
+.contenedor {
+  width: 100%;
+  margin: auto;
   background-color: #333;
+  color: #fff;
 }
 
-app-social {
+/* app-social {
   float: right;
-  margin-top: 22.5px;
-}
+  margin-top: 22px;
+} */
